@@ -39,6 +39,7 @@ function Form({ addContact, contacts }) {
         </div>
         <div>
           <input
+            type="number"
             name="phone_number"
             value={form.phone_number}
             placeholder="Phone Number"
